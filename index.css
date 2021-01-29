@@ -421,3 +421,83 @@ form label{
   }
 }
 
+@media screen and (max-width:768px) {
+  body{
+    background: url("images/background3.jpg") no-repeat center fixed;
+  background-size: cover;
+  }
+  .landingText h1{
+    font-size: 15rem;
+  }
+  .landingText h6{
+    font-size: 1.7rem;
+  }
+  .navList{
+    flex-direction: column;
+  }
+  li{
+    margin: 2rem 0;
+  }
+  .navLink{
+    font-size: 4.5rem;
+  }
+  .aboutHeading h1{
+    font-size: 8rem;
+  }
+  .sectionHeading h1{
+    font-size: 3rem;
+  }
+  .aboutDetails .navList{
+    flex-direction: initial;
+  }
+  .aboutDetails li{
+    margin: 0 2rem;
+  }
+  /* .iconContainer{
+    width: 7rem;
+    height: 7rem;
+  }
+  .iconContainer i{
+    font-size: rem;
+  } */
+}
+
+@media screen and (max-width: 600px){
+  .menuTogler{
+    top: 2rem;
+    right: 2rem;
+  }
+  .landingText h1{
+    font-size: 8rem;
+  }
+  .landingText h6{
+    font-size: 1.4rem;
+  }
+  .navLink{
+    font-size: 3.5rem;
+  }
+  .about .container{
+    flex-direction: column;
+  }
+  .profileImage{
+    margin: 0 0 7rem 0;
+  }
+  .portfolioItem{
+    flex-direction: column;
+  }
+  .portfolioImage{
+    margin: 0 0 2rem 0;
+    order: 1;
+  }
+  .portfolioDescription{
+    margin: 0;
+    order: 2;
+  }
+  form{
+    width: 100%;
+  }
+  .up{
+    right: 2rem;
+  }
+}
+
